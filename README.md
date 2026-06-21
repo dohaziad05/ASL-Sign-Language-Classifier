@@ -51,7 +51,7 @@ The dataset maps rows of numbers into continuous spatial visuals. You can downlo
 
 <div align="center">
 
-### * **Source Link** [Official Sign Language Dataset on Kaggle](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)
+###  [Official Sign Language Dataset on Kaggle](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)
 </div>
 
 * **Training Examples:** 27,455 unique images.
