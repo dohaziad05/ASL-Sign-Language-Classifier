@@ -51,14 +51,13 @@ The dataset maps rows of numbers into continuous spatial visuals. You can downlo
 
 <div align="center">
 
-### 📥 [Download Official ASL Dataset (ZIP)](https://storage.googleapis.com/download.tensorflow.org/data/sign_mnist.zip)
-
+### * **Source Link** [Official Sign Language Dataset on Kaggle](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)
 </div>
 
 * **Training Examples:** 27,455 unique images.
 * **Validation Examples:** 7,172 unique images.
 * **Dimensionality:** Each image is a $28 \times 28$ pixel matrix.
-* * **Classes:** 24 distinct classes corresponding to the alphabet (Letters **J** and **Z** are excluded as they require structural motion).
+* **Classes:** 24 distinct classes corresponding to the alphabet (Letters **J** and **Z** are excluded as they require structural motion).
 
 ## 🧠 Model Architecture Blueprint
 
