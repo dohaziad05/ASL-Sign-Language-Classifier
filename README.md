@@ -18,13 +18,19 @@
 ---
 </div>
 
-## 🚀 Key Features & Highlights
+## 🚀 System Highlights
 
-* **Custom Scalable Architecture (`MyConvBlock`):** Engineered a modular block combining 2D Convolution (`Conv2d`), Batch Normalization (`BatchNorm2d`), Non-linear activation (`ReLU`), spatial reduction (`MaxPool2d`), and stochastic regularization (`Dropout`) into a single reusable object.
-* **On-the-Fly Runtime Data Augmentation:** Implemented high-variance transformations (`RandomRotation`, `RandomResizedCrop`, `RandomHorizontalFlip`, and `ColorJitter`) applied directly within the training loop to dynamically generate infinite training scenarios and completely destroy *Overfitting*.
-* **Normalized Data Management:** Custom PyTorch `Dataset` blueprint utilizing min-max vector scaling ($0-255 \to 0.0-1.0$) and handling spatial re-dimensioning automatically for seamless hardware streaming.
-* **Production Deployment Ready:** Integrates an automatic saving sequence that outputs optimized structural weights directly into a portable binary file (`ultimate_asl_model.pth`).
+* **`MyConvBlock` Architecture**
+  A custom modular engine fusing `Conv2d`, `BatchNorm2d`, `ReLU`, `Dropout`, and `MaxPool2d` into a single reusable layer for advanced feature extraction.
 
+* **On-the-Fly Data Augmentation**
+  Dynamic transformations (`Rotation`, `ResizedCrop`, `HorizontalFlip`, `ColorJitter`) executed inside the training loop to eliminate overfitting.
+
+* **Normalized Data Management**
+  A custom `Dataset` pipeline handling min-max scaling ($0-255 \to 0.0-1.0$) and spatial reshaping automatically.
+
+* **Weight Serialization**
+  An automated protocol that compiles and exports optimized structural weights directly into a deployable binary (`ultimate_asl_model.pth`).
 ---
 
 ## 🛠️ Complete Technical Stack
